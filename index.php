@@ -17,7 +17,16 @@
 						$procesos->listar();
 					}
 					if(isset($_POST['add'])){
-						$procesos->add();
+						$procesos->addButtons();
+					}
+					if(isset($_POST['ID'])){
+						$procesos->add($_POST['ID'], $_POST['DNI'], $_POST['Nombre'], $_POST['e-mail'], $_POST['Telefono']);
+					}
+					if(isset($_POST['borrar'])){
+						$procesos->borrar($_POST['0']);
+					}
+					if(isset($_POST['modificar'])){
+						$procesos->modificar($_POST['0'], $_POST['1'], $_POST['2'], $_POST['3'], $_POST['4']);
 					}
 				?>
 			</article>

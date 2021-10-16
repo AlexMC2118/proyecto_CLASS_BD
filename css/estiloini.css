@@ -43,10 +43,10 @@ article:first-child input:nth-child(5){
 	width: 100px;
 	text-align: center;
 }
-article:first-child input[type="button"]{
+article:first-child input[type="submit"]{
 	float: right;
 }
-input[type="button"]:hover, input[type="submit"]:hover{
+input[type="submit"]:hover{
 	color: red;
 }
 div:nth-of-type(2n){
