@@ -6,8 +6,8 @@
 		}
 		function conectar(){
 			$server='11.2daw.esvirgua.com';
-			$user='user2daw_11';
-			$contrasenia='B%RhPUQPvMK5';
+			$user='';
+			$contrasenia='';
 			$db='user2daw_BD1-11';
 	
 			$this->DB->Connect($server, $user, $contrasenia, $db);
